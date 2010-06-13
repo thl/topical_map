@@ -34,3 +34,6 @@
 [submodule "vendor/plugins/thl_integration"]
 	path = vendor/plugins/thl_integration
 	url = git://github.com/thl/thl_integration.git
+[submodule "vendor/plugins/active_resource_extensions"]
+	path = vendor/plugins/active_resource_extensions
+	url = git://github.com/thl/active_resource_extensions.git
