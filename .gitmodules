@@ -37,3 +37,6 @@
 [submodule "vendor/plugins/active_resource_extensions"]
 	path = vendor/plugins/active_resource_extensions
 	url = git://github.com/thl/active_resource_extensions.git
+[submodule "vendor/plugins/universal_navigation"]
+	path = vendor/plugins/universal_navigation
+	url = git://github.com/thl/universal_navigation.git
