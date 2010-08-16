@@ -1,5 +1,12 @@
 <%= render :partial => 'shared/header' %>
 <div class="shell-1">
-<%= yield %>
+	<% universal_navigation_tabs :current_tab => :topics do %>
+	  <div class="secondary-universal-navigation">
+			<%= secondary_tabs @current_tab_id %>
+			<div id="topics_main">
+				<%= yield %>
+			</div>
+		</div>
+	<% end %>
 </div>
 <%= footer %>
