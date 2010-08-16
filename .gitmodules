@@ -40,3 +40,6 @@
 [submodule "vendor/plugins/universal_navigation"]
 	path = vendor/plugins/universal_navigation
 	url = git://github.com/thl/universal_navigation.git
+[submodule "vendor/plugins/jrails"]
+	path = vendor/plugins/jrails
+	url = git://github.com/aaronchi/jrails.git
