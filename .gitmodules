@@ -40,3 +40,6 @@
 [submodule "vendor/plugins/jrails"]
 	path = vendor/plugins/jrails
 	url = git://github.com/aaronchi/jrails.git
+[submodule "vendor/plugins/annotate_models"]
+	path = vendor/plugins/annotate_models
+	url = git://github.com/amontano/annotate_models.git
