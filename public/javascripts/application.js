@@ -3,4 +3,8 @@
 jQuery(document).ready(function(){
   jQuery("#sideMenuLink").css("background-position", "0% 0%");
   jQuery("#fxSideMenu").hide();
+  if(top != self){
+	var content = jQuery('#content').html()
+	jQuery('#body-wrapper').html( content );
+  }
 });
