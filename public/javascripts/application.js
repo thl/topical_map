@@ -7,6 +7,6 @@ jQuery(document).ready(function(){
 	var content = jQuery('#content').html();
 	jQuery('body').html( '<div id="content">' + content + "</div>" );
 	jQuery('script[src*=google-se').remove();
-	jQuery('#cse').remove();
+	var t = setInterval( function() { var el = jQuery('#cse'); if ( el.length ) { el.remove(); t = clearInterval("t") } } , 100 );
   }
 });
