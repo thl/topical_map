@@ -6,5 +6,6 @@ jQuery(document).ready(function(){
   if(top != self){
 	var content = jQuery('#content').html();
 	jQuery('body').html( '<div id="content">' + content + "</div>" );
+	jQuery('#cse').remove();
   }
 });
