@@ -57,7 +57,7 @@ Rails::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   
   config.action_controller.session = {
-    :session_key => '_topical_map_builder_session',
+    :session_key => '_thl_session',
     :secret      => '92c58b72c968a9b8699f7f0e41491e82e4a1d3d671c628f880e1d6409e5eb4f2b4c7598f6544c5a7b96d175ecba6fac80b3d1507b735d7f710e13ffdb65b2842'
   }
   
