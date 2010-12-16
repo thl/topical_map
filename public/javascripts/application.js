@@ -5,6 +5,6 @@ jQuery(document).ready(function(){
   jQuery("#fxSideMenu").hide();
   if(top != self){
 	var content = jQuery('#content').wrap("<div />").parent().html();
-	jQuery('#main-wrapper').html( content );
+	jQuery('body').html( content );
   }
 });
