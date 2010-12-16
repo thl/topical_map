@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
   jQuery("#sideMenuLink").css("background-position", "0% 0%");
   jQuery("#fxSideMenu").hide();
   if(top != self){
-	var content = jQuery('#content').wrap("<div />").parent().html();
-	jQuery('body').html( content );
+	var content = jQuery('#content').html();
+	jQuery('body').html( '<div id="content">' + content + "</div>" );
   }
 });
