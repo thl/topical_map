@@ -84,4 +84,3 @@ Rails::Initializer.run do |config|
 end
 # require 'action_web_service'
 OpenID::Util.logger = RAILS_DEFAULT_LOGGER
-ActionController::Base.session = { :domain => ".thlib.org" }
