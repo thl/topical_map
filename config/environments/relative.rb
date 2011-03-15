@@ -16,4 +16,4 @@ config.action_controller.perform_caching             = true
 
 # Disable delivery errors, bad email addresses will be ignored
 # config.action_mailer.raise_delivery_errors = false
-ActionController::AbstractRequest.relative_url_root = '/tmb'
+ActionController::AbstractRequest.relative_url_root = '/kmaps'
