@@ -102,8 +102,3 @@ ul.secondary-tabs .ui-tabs-unselected a:hover {
 	color:#333 !important;
 	text-decoration:underline;
 }
-
-/* App-specific */
-#FeaturePanelContainer {
-	border-top: 0;
-}

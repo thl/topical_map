@@ -2,8 +2,30 @@
 thl plugin scripts -- jev3a@virginia.edu
 
 depends on prototype.js, but not heavily
-
 */
+
+function getUrlVars() {
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++) {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
+var parent_url = getUrlVars()['parent_url'];		
+
+// If this isn't in an iframe, redirect to add a frame=destroy GET param to destroy the relevant session variable
+if(top==self){
+	var href = window.location.href;
+	if ( parent_url && parent_url.length ) {
+		window.location = parent_url + "#iframe=" + href;
+	} else {
+		window.location = href + ( href.indexOf('?') > -1 ? '&' : '?' ) + "frame=destroy";
+	}
+}
 
 var app = navigator.userAgent.match(/Firefox|Safari|MSIE|Opera?/i) ;
 app = app[0] ;
@@ -11,6 +33,7 @@ app = app[0] ;
 // Boolean that reflects whether the page is inside a frame; used in the page's JS in case
 // this state should affect the page's functionality  
 var in_frame = false;
+
 
 // object that handles bookmarking -- works only for IE and Firefox
 var bookmarker = {
@@ -57,6 +80,16 @@ var bookmarker = {
 
 var frame_service = {
 
+	activate_links: function() {
+		
+		if ( parent_url.length ) {
+			$('a').not('[href^=#], [href*=parent_url]').each( function() {
+				this.href += ( this.href.indexOf('?') > -1 ? '&' : '?' ) + "parent_url=" + parent_url;
+			});
+		}
+		
+	},
+
 	hide_stuff: function() {
 		// this is necessary for ie6
 		$('body').css({ 'padding': '0px' , 'backgroundImage': 'none' , 'backgroundColor': 'white' , 'textAlign': 'left' }) ;
@@ -67,13 +100,15 @@ var frame_service = {
 	// Based on the environment, get the appropriate hostname of the main THL site. 
 	get_thl_hostname: function(){
 		var service_hostname = window.location.hostname;
+		var h = '';
 		if(service_hostname.indexOf('localhost') == 0){
-			return 'localhost:90';
-		}else if(service_hostname.indexOf('dev') == 0){
-			return 'dev.thlib.org';
-		}else{
-			return 'www.thlib.org';
+			h = 'localhost:90';
+		} else if(service_hostname.indexOf('dev') == 0){
+			h = 'dev.thlib.org';
+		} else{
+			h = 'www.thlib.org';
 		}
+		return h;
 	},
 	
 	// Set the height of the containing iframe.  Since cross-domain JS can't be used due to security constraints, we have to load
@@ -89,20 +124,16 @@ var frame_service = {
 	init: function() {
 		//bookmarker.init() ;
 		
-		// If this isn't in an iframe, redirect to add a frame=destroy GET param to destroy the relevant session variable
-		if(top==self){
-			var loc = window.location;
-			var separator = loc.search ? '&' : '?';
-			window.location = loc.protocol+'//'+loc.host+loc.pathname+loc.search+separator+'frame=destroy'+loc.hash;
-		}
-		
 		this.hide_stuff() ;
 		this.set_iframe_height();
 		$('#body-wrapper').css('width', '100%');
 		
+		this.activate_links();
+		
 		// On AJAX success events, the height of the content might've changed, so we need to set the iframe height appropriately
 		jQuery(document).ajaxSuccess(function(event, request, settings) {
 			frame_service.set_iframe_height();
+			frame_service.activate_links();
 		});
 		
 		// For use in this application to determine alternate behavior when the app is in an iframe
