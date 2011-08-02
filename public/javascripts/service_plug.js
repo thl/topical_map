@@ -82,12 +82,37 @@ var frame_service = {
 
 	activate_links: function() {
 		
+		// this is a way to add the parent_url arg to dynamically generated links at the click moment
+		
+		jQuery('a').live('contextmenu click', function(event) {
+			href = frame_service.rewrite_links(this.href);
+			this.href = href;
+			if ( event.which == 3 ) {
+				return true;
+			} else {
+				window.location.href = href;
+				return false;
+			}
+		});
+		
+		// all links on the page get the parent_url by default 
+		
 		if ( parent_url.length ) {
-			$('a').not('[href^=#], [href*=parent_url]').each( function() {
-				this.href += ( this.href.indexOf('?') > -1 ? '&' : '?' ) + "parent_url=" + parent_url;
+			jQuery('a').each( function() {
+				this.href = frame_service.rewrite_links(this.href);
 			});
 		}
 		
+	},
+	
+	rewrite_links: function(href) {
+		if ( parent_url.length && href.indexOf('#') != 0 && href.indexOf(parent_url) == -1 ) {
+			var arg = "parent_url=" + parent_url,
+                pieces = href.split('#'),
+                newarg = ( href.indexOf('?') > -1 ? '&' : '?' ) + arg + ( href.indexOf('#') > -1 ? '#' : ''),
+			    newlink = ( pieces.length > 1 ? pieces.join(newarg) : pieces[0] + newarg);
+		}
+		return newlink;
 	},
 
 	hide_stuff: function() {
