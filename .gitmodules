@@ -43,3 +43,6 @@
 [submodule "vendor/plugins/annotate_models"]
 	path = vendor/plugins/annotate_models
 	url = git://github.com/amontano/annotate_models.git
+[submodule "vendor/plugins/dictionary_integration"]
+	path = vendor/plugins/dictionary_integration
+	url = git://github.com/thl/dictionary_integration.git
