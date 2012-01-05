@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090731042553) do
+ActiveRecord::Schema.define(:version => 20120104184238) do
 
   create_table "authors_descriptions", :id => false, :force => true do |t|
     t.integer "author_id",      :null => false
@@ -31,6 +31,14 @@ ActiveRecord::Schema.define(:version => 20090731042553) do
   end
 
   add_index "authors_translated_titles", ["author_id", "translated_title_id"], :name => "authors_translated_titles_index", :unique => true
+
+  create_table "blurbs", :force => true do |t|
+    t.string   "code",       :null => false
+    t.string   "title",      :null => false
+    t.text     "content",    :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "categories", :force => true do |t|
     t.string   "title",                         :null => false
