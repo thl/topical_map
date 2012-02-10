@@ -1,6 +1,7 @@
 .DS_Store
+*.csv
 *.tmproj
-secret.txt
+*.txt
 config/database.yml
 config/environments/quandu_*.rb
 doc/plugins/*
