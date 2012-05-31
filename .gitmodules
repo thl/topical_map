@@ -37,3 +37,6 @@
 [submodule "vendor/plugins/rails_upgrade"]
 	path = vendor/plugins/rails_upgrade
 	url = git://github.com/amontano/rails_upgrade.git
+[submodule "vendor/plugins/passiverecord"]
+	path = vendor/plugins/passiverecord
+	url = git://github.com/ambethia/passiverecord.git
