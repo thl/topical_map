@@ -14,6 +14,7 @@ gem 'memcache-client'
 gem 'newrelic_rpm'
 gem 'open_id_authentication'
 gem 'acts_as_tree', '0.2.0'
+gem 'dynamic_form'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 group :development do

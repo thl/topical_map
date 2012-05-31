@@ -34,6 +34,7 @@ GEM
     cgi_multipart_eof_fix (2.5.0)
     columnize (0.3.6)
     daemons (1.1.8)
+    dynamic_form (1.1.4)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     fastthread (1.0.7)
@@ -107,6 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_tree (= 0.2.0)
+  dynamic_form
   hpricot (>= 0.8.6)
   jquery-rails (= 0.2.7)
   memcache-client
