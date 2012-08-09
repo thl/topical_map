@@ -1,3 +1,6 @@
+.bundle
+log/*.log
+tmp/
 .DS_Store
 *.csv
 *.tmproj
