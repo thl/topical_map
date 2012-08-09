@@ -4,7 +4,6 @@ gem 'rails', '3.0.12'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'rails', '3.0.12'
 gem 'mysql2', '~> 0.2.17'
 gem 'hpricot', '>= 0.8.6'
 gem 'rack-openid', :require => 'rack/openid'
