@@ -10,4 +10,6 @@ config/environments/quandu_*.rb
 doc/plugins/*
 public/javascripts/tiny_mce/
 public/categories/
+public/assets/
+vendor/bundle/
 www
