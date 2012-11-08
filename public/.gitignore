@@ -1,1 +1,6 @@
 *.xml
+*.json
+javascripts/tiny_mce/
+categories/
+assets/
+thl/

@@ -6,10 +6,8 @@ tmp/
 *.tmproj
 *.txt
 config/database.yml
+config/settings.yml
 config/environments/quandu_*.rb
 doc/plugins/*
-public/javascripts/tiny_mce/
-public/categories/
-public/assets/
 vendor/bundle/
 www

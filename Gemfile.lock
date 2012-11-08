@@ -53,10 +53,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/kmaps_engine.git
-  revision: 48863a4b4f3fdbace4e3485a9b3865dc1f83626f
-  tag: v2.0.9
+  revision: 9277d5a71e283dc63055210da1f5bea529524052
+  tag: v2.1.0
   specs:
-    kmaps_engine (2.0.9)
+    kmaps_engine (2.1.0)
       rails (~> 3.2.8)
 
 GIT
@@ -77,10 +77,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/thl_integration.git
-  revision: e8d1ae8ecae90bec81947aebecaad1144691391b
-  tag: v2.0.0
+  revision: eb14891ac67d2e10d8d8b8f5b5a896b9eda2cdf3
+  tag: v2.0.1
   specs:
-    thl_integration (2.0.0)
+    thl_integration (2.0.1)
       rails (~> 3.2.8)
 
 GIT
@@ -243,7 +243,7 @@ DEPENDENCIES
   hpricot (>= 0.8.6)
   jquery-rails
   json
-  kmaps_engine (= 2.0.9)!
+  kmaps_engine (= 2.1.0)!
   mediabase_integration (= 0.0.1)!
   memcache-client
   mms_integration (= 2.0.0)!
@@ -259,7 +259,7 @@ DEPENDENCIES
   ruby-debug
   sass-rails (~> 3.2.3)
   therubyracer
-  thl_integration (= 2.0.0)!
+  thl_integration (= 2.0.1)!
   tinymce-rails (= 3.5.6)
   uglifier (>= 1.0.3)
   universal_navigation (= 2.0.0)!
