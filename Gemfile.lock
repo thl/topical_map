@@ -36,10 +36,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/authenticated_system.git
-  revision: 21ce0943ab29fcc1258c9959d93c5dd508ecfbd0
-  tag: v2.0.2
+  revision: 73ce8a5e3ee6f26af6e972a907e31db8f3cd5501
+  tag: v2.0.3
   specs:
-    authenticated_system (2.0.2)
+    authenticated_system (2.0.3)
       rails (~> 3.2.8)
 
 GIT
@@ -53,10 +53,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/kmaps_engine.git
-  revision: 9277d5a71e283dc63055210da1f5bea529524052
-  tag: v2.1.0
+  revision: 43a7884daefd17c4d397e647782cfa72d8c9d178
+  tag: v2.1.1
   specs:
-    kmaps_engine (2.1.0)
+    kmaps_engine (2.1.1)
       rails (~> 3.2.8)
 
 GIT
@@ -235,7 +235,7 @@ DEPENDENCIES
   active_resource_extensions (= 2.0.0)!
   acts_as_tree (= 0.2.0)
   annotate
-  authenticated_system (= 2.0.2)!
+  authenticated_system (= 2.0.3)!
   coffee-rails (~> 3.2.1)
   complex_scripts (= 2.0.1)!
   dynamic_form
@@ -243,7 +243,7 @@ DEPENDENCIES
   hpricot (>= 0.8.6)
   jquery-rails
   json
-  kmaps_engine (= 2.1.0)!
+  kmaps_engine (= 2.1.1)!
   mediabase_integration (= 0.0.1)!
   memcache-client
   mms_integration (= 2.0.0)!
