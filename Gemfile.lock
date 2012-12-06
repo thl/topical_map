@@ -77,10 +77,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/thl_integration.git
-  revision: 386e9b2bc5a20e5ba0296dc578881b566925fa0e
-  tag: v2.0.2
+  revision: 5357ee9a4118b7376f9c6cb21ba6d9ef8cdf5b9a
+  tag: v2.0.3
   specs:
-    thl_integration (2.0.2)
+    thl_integration (2.0.3)
       rails (~> 3.2.8)
 
 GIT
@@ -260,7 +260,7 @@ DEPENDENCIES
   ruby-debug
   sass-rails (~> 3.2.3)
   therubyracer (= 0.10.2)
-  thl_integration (= 2.0.2)!
+  thl_integration (= 2.0.3)!
   tinymce-rails (= 3.5.6)
   uglifier (>= 1.0.3)
   universal_navigation (= 2.0.0)!
