@@ -32,7 +32,7 @@ gem 'passiverecord', '0.2', :git => 'git://github.com/ambethia/passiverecord.git
 gem 'restful-authentication', '2.0.0.beta1', :git => 'git://github.com/Satish/restful-authentication.git', :branch => 'rails3'
 
 gem 'active_resource_extensions', '2.0.0', :git => 'git://github.com/thl/active_resource_extensions.git', :tag => 'v2.0.0'    #:path => '../engines/active_resource_extensions'
-gem 'authenticated_system',       '2.0.7', :git => 'git://github.com/thl/authenticated_system.git', :tag => 'v2.0.7'          #:path => '../engines/authenticated_system'
+gem 'authenticated_system',       '2.0.8', :git => 'git://github.com/thl/authenticated_system.git', :tag => 'v2.0.8'          #:path => '../engines/authenticated_system'
 gem 'complex_scripts',            '2.0.2', :git => 'git://github.com/thl/complex_scripts.git', :tag => 'v2.0.2'               #:path => '../engines/complex_scripts'
 gem 'kmaps_engine',               '2.1.3', :git => 'git://github.com/thl/kmaps_engine.git', :tag => 'v2.1.3'                  #:path => '../engines/kmaps_engine'
 gem 'mediabase_integration',      '0.0.2', :git => 'git://github.com/shanti-uva/mediabase_integration.git', :tag => 'v0.0.2'  #:path => '../engines/mediabase_integration'
