@@ -44,10 +44,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/complex_scripts.git
-  revision: 1bf73396137832f48853e332bc0ce89dee7e0e66
-  tag: v2.0.2
+  revision: ef26152b095945346d245feab0bced4c26e7837e
+  tag: v2.0.3
   specs:
-    complex_scripts (2.0.2)
+    complex_scripts (2.0.3)
       passiverecord (= 0.2)
       rails (~> 3.2.8)
 
@@ -77,18 +77,18 @@ GIT
 
 GIT
   remote: git://github.com/thl/thl_integration.git
-  revision: 5357ee9a4118b7376f9c6cb21ba6d9ef8cdf5b9a
-  tag: v2.0.3
+  revision: 62dbcd96645c45c4a9d03faff6aade4d4c84b120
+  tag: v2.0.4
   specs:
-    thl_integration (2.0.3)
+    thl_integration (2.0.4)
       rails (~> 3.2.8)
 
 GIT
   remote: git://github.com/thl/universal_navigation.git
-  revision: 099bf69b67b19443973178daa5e5a3672bd93b3b
-  tag: v2.0.0
+  revision: 0da592f1241dc1b79182ae808bb5678aa707ffbc
+  tag: v2.0.1
   specs:
-    universal_navigation (2.0.0)
+    universal_navigation (2.0.1)
       rails (~> 3.2.8)
 
 GEM
@@ -238,7 +238,7 @@ DEPENDENCIES
   annotate
   authenticated_system (= 2.0.8)!
   coffee-rails (~> 3.2.1)
-  complex_scripts (= 2.0.2)!
+  complex_scripts (= 2.0.3)!
   dynamic_form
   globalize2 (= 0.2.0)!
   hpricot (>= 0.8.6)
@@ -260,7 +260,7 @@ DEPENDENCIES
   ruby-debug
   sass-rails (~> 3.2.3)
   therubyracer (= 0.10.2)
-  thl_integration (= 2.0.3)!
+  thl_integration (= 2.0.4)!
   tinymce-rails (= 3.5.6)
   uglifier (>= 1.0.3)
-  universal_navigation (= 2.0.0)!
+  universal_navigation (= 2.0.1)!
