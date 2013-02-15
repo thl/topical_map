@@ -10,11 +10,6 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-// from vendored gems:
-//= require jquery
-//= require jquery_ujs
-//= require tinymce
-//
-//= require universal_navigation/application
-//= require thl_integration/application
 //= require kmaps_engine/application
+//= require thl_integration/application
+//= require universal_navigation/application

@@ -61,10 +61,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/kmaps_engine.git
-  revision: 95d4933d60613c1b2bb47709e6a2e6e9145b8eb3
-  tag: v2.1.4
+  revision: 89c3eea7d20d3c8b61a4fd9bb128a50486224df3
+  tag: v2.1.5
   specs:
-    kmaps_engine (2.1.4)
+    kmaps_engine (2.1.5)
       rails (~> 3.2.8)
 
 GIT
@@ -93,10 +93,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/universal_navigation.git
-  revision: c49a3029c9c30c145c62dbc012cda8ad5b8401e9
-  tag: v2.0.2
+  revision: d02e7b9d6f682f21527fa759107227586395245b
+  tag: v2.0.3
   specs:
-    universal_navigation (2.0.2)
+    universal_navigation (2.0.3)
       rails (~> 3.2.8)
 
 GEM
@@ -253,7 +253,7 @@ DEPENDENCIES
   interface_utils (= 2.0.0)!
   jquery-rails
   json
-  kmaps_engine (= 2.1.4)!
+  kmaps_engine (= 2.1.5)!
   mediabase_integration (= 0.0.2)!
   memcache-client
   mms_integration (= 2.0.2)!
@@ -272,4 +272,4 @@ DEPENDENCIES
   thl_integration (= 2.0.5)!
   tinymce-rails (= 3.5.6)
   uglifier (>= 1.0.3)
-  universal_navigation (= 2.0.2)!
+  universal_navigation (= 2.0.3)!
