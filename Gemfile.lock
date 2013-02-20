@@ -69,18 +69,18 @@ GIT
 
 GIT
   remote: git://github.com/thl/mms_integration.git
-  revision: e10424bb3ad2ed6184cf833c2b29395f6ef3aa6b
-  tag: v2.0.2
+  revision: 3210dd03001bc852525226fe2b145ba04e25ba2a
+  tag: v2.0.3
   specs:
-    mms_integration (2.0.2)
+    mms_integration (2.0.3)
       rails (~> 3.2.8)
 
 GIT
   remote: git://github.com/thl/places_integration.git
-  revision: 06a9c4bd6b8a8e725081aca52d93d1f36df18e8a
-  tag: v2.0.1
+  revision: 6db71a1dc56369fc42c11844c1ef1f56c77d65db
+  tag: v2.0.2
   specs:
-    places_integration (2.0.1)
+    places_integration (2.0.2)
       rails (~> 3.2.8)
 
 GIT
@@ -256,13 +256,13 @@ DEPENDENCIES
   kmaps_engine (= 2.1.5)!
   mediabase_integration (= 0.0.2)!
   memcache-client
-  mms_integration (= 2.0.2)!
+  mms_integration (= 2.0.3)!
   mongrel
   mysql2
   newrelic_rpm
   open_id_authentication
   passiverecord (= 0.2)!
-  places_integration (= 2.0.1)!
+  places_integration (= 2.0.2)!
   rack-openid
   rails (= 3.2.11)
   restful-authentication (= 2.0.0.beta1)!

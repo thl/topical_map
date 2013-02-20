@@ -37,8 +37,8 @@ gem 'complex_scripts',            '2.0.4', :git => 'git://github.com/thl/complex
 gem 'interface_utils',            '2.0.0', :git => 'git://github.com/thl/interface_utils.git',              :tag => 'v2.0.0' #:path => '../engines/interface_utils'
 gem 'kmaps_engine',               '2.1.5', :git => 'git://github.com/thl/kmaps_engine.git',                 :tag => 'v2.1.5' #:path => '../engines/kmaps_engine'
 gem 'mediabase_integration',      '0.0.2', :git => 'git://github.com/shanti-uva/mediabase_integration.git', :tag => 'v0.0.2' #:path => '../engines/mediabase_integration'
-gem 'mms_integration',            '2.0.2', :git => 'git://github.com/thl/mms_integration.git',              :tag => 'v2.0.2' #:path => '../engines/mms_integration'
-gem 'places_integration',         '2.0.1', :git => 'git://github.com/thl/places_integration.git',           :tag => 'v2.0.1' #:path => '../engines/places_integration'
+gem 'mms_integration',            '2.0.3', :git => 'git://github.com/thl/mms_integration.git',              :tag => 'v2.0.3' #:path => '../engines/mms_integration'
+gem 'places_integration',         '2.0.2', :git => 'git://github.com/thl/places_integration.git',           :tag => 'v2.0.2' #:path => '../engines/places_integration'
 gem 'thl_integration',            '2.0.5', :git => 'git://github.com/thl/thl_integration.git',              :tag => 'v2.0.5' #:path => '../engines/thl_integration'
 gem 'universal_navigation',       '2.0.3', :git => 'git://github.com/thl/universal_navigation.git',         :tag => 'v2.0.3' #:path => '../engines/universal_navigation'
 
