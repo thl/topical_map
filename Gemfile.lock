@@ -28,10 +28,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/active_resource_extensions.git
-  revision: 27a01a973f3fbf4d43b5e44ccf76d0ba13fd12d3
-  tag: v2.0.1
+  revision: 9f5735a1c4eb1226307d608271332b6820da2f17
+  tag: v2.0.2
   specs:
-    active_resource_extensions (2.0.1)
+    active_resource_extensions (2.0.2)
       rails (~> 3.2.8)
 
 GIT
@@ -241,7 +241,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_resource_extensions (= 2.0.1)!
+  active_resource_extensions (= 2.0.2)!
   acts_as_tree (= 0.2.0)
   annotate
   authenticated_system (= 2.0.9)!
