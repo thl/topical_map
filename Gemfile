@@ -31,7 +31,7 @@ gem 'globalize2', '0.2.0', :git => 'git://github.com/joshmh/globalize2.git', :br
 gem 'passiverecord', '0.2', :git => 'git://github.com/ambethia/passiverecord.git'
 gem 'restful-authentication', '2.0.0.beta1', :git => 'git://github.com/Satish/restful-authentication.git', :branch => 'rails3'
 
-gem 'active_resource_extensions', '2.0.2', :git => 'git://github.com/thl/active_resource_extensions.git',   :tag => 'v2.0.2' #:path => '../engines/active_resource_extensions'
+gem 'active_resource_extensions', '2.0.3', :git => 'git://github.com/thl/active_resource_extensions.git',   :tag => 'v2.0.3' #:path => '../engines/active_resource_extensions'
 gem 'authenticated_system',       '2.0.9', :git => 'git://github.com/thl/authenticated_system.git',         :tag => 'v2.0.9' #:path => '../engines/authenticated_system'
 gem 'complex_scripts',            '2.0.4', :git => 'git://github.com/thl/complex_scripts.git',              :tag => 'v2.0.4' #:path => '../engines/complex_scripts'
 gem 'interface_utils',            '2.0.0', :git => 'git://github.com/thl/interface_utils.git',              :tag => 'v2.0.0' #:path => '../engines/interface_utils'
