@@ -10,9 +10,9 @@ gem 'json'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
   # See git://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer', '0.10.2'
+  gem 'libv8', '3.3.10.2'
+  gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '>= 1.0.3'
 end
 
@@ -35,7 +35,7 @@ gem 'active_resource_extensions', '2.0.4', :git => 'git://github.com/thl/active_
 gem 'authenticated_system',       '2.0.9', :git => 'git://github.com/thl/authenticated_system.git',         :tag => 'v2.0.9' #:path => '../engines/authenticated_system'
 gem 'complex_scripts',            '2.0.4', :git => 'git://github.com/thl/complex_scripts.git',              :tag => 'v2.0.4' #:path => '../engines/complex_scripts'
 gem 'interface_utils',            '2.0.0', :git => 'git://github.com/thl/interface_utils.git',              :tag => 'v2.0.0' #:path => '../engines/interface_utils'
-gem 'kmaps_engine',               '2.1.5', :git => 'git://github.com/thl/kmaps_engine.git',                 :tag => 'v2.1.5' #:path => '../engines/kmaps_engine'
+gem 'kmaps_engine',               '2.1.6', :git => 'git://github.com/thl/kmaps_engine.git',                 :tag => 'v2.1.6' #:path => '../engines/kmaps_engine'
 gem 'mediabase_integration',      '0.0.2', :git => 'git://github.com/shanti-uva/mediabase_integration.git', :tag => 'v0.0.2' #:path => '../engines/mediabase_integration'
 gem 'mms_integration',            '2.0.3', :git => 'git://github.com/thl/mms_integration.git',              :tag => 'v2.0.3' #:path => '../engines/mms_integration'
 gem 'places_integration',         '2.0.2', :git => 'git://github.com/thl/places_integration.git',           :tag => 'v2.0.2' #:path => '../engines/places_integration'
