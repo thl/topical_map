@@ -28,10 +28,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/active_resource_extensions.git
-  revision: 43dc5b39e53e45b51e9b12ab30d9bccb18be859a
-  tag: v2.0.4
+  revision: a8d01dca2a40dfb32b85758871b5076303d932a4
+  tag: v2.0.5
   specs:
-    active_resource_extensions (2.0.4)
+    active_resource_extensions (2.0.5)
       rails (~> 3.2.8)
 
 GIT
@@ -61,10 +61,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/kmaps_engine.git
-  revision: fd4f8fc445cb0db847b6002d612caead6b707b3f
-  tag: v2.1.6
+  revision: 50afede7a6470e4cf85f424a9ffe8a7ed72fa995
+  tag: v2.1.7
   specs:
-    kmaps_engine (2.1.6)
+    kmaps_engine (2.1.7)
       rails (~> 3.2.8)
 
 GIT
@@ -241,7 +241,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_resource_extensions (= 2.0.4)!
+  active_resource_extensions (= 2.0.5)!
   acts_as_tree (= 0.2.0)
   annotate
   authenticated_system (= 2.0.9)!
@@ -253,7 +253,7 @@ DEPENDENCIES
   interface_utils (= 2.0.0)!
   jquery-rails
   json
-  kmaps_engine (= 2.1.6)!
+  kmaps_engine (= 2.1.7)!
   libv8 (= 3.3.10.2)
   mediabase_integration (= 0.0.2)!
   memcache-client
