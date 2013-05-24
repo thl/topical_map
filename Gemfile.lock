@@ -60,14 +60,6 @@ GIT
       rails (~> 3.2.11)
 
 GIT
-  remote: git://github.com/thl/kmaps_engine.git
-  revision: 7215983406bb7f7ffc5511adce49edd45ef0f3e1
-  tag: v2.1.8
-  specs:
-    kmaps_engine (2.1.8)
-      rails (~> 3.2.8)
-
-GIT
   remote: git://github.com/thl/mms_integration.git
   revision: 556f4318617b2bd52080a56872ee6f23185e92df
   tag: v2.0.5
@@ -92,11 +84,19 @@ GIT
       rails (~> 3.2.8)
 
 GIT
-  remote: git://github.com/thl/universal_navigation.git
-  revision: 4c491f8501c26aca8bb24a232460fc672a9b9daf
-  tag: v2.0.4
+  remote: git://github.com/thl/topical_map_engine.git
+  revision: c4ec68bb346eaa089ed9ab8273637cc2ca002ede
+  tag: v3.0.0
   specs:
-    universal_navigation (2.0.4)
+    topical_map_engine (3.0.0)
+      rails (~> 3.2.8)
+
+GIT
+  remote: git://github.com/thl/universal_navigation.git
+  revision: 46278c0fce258e8b7061180b3d85910d13a2bc61
+  tag: v2.0.5
+  specs:
+    universal_navigation (2.0.5)
       rails (~> 3.2.8)
 
 GEM
@@ -253,7 +253,6 @@ DEPENDENCIES
   interface_utils (= 2.0.2)!
   jquery-rails
   json
-  kmaps_engine (= 2.1.8)!
   libv8 (= 3.3.10.2)
   mediabase_integration (= 0.0.2)!
   memcache-client
@@ -272,5 +271,6 @@ DEPENDENCIES
   therubyracer
   thl_integration (= 2.0.6)!
   tinymce-rails (= 3.5.6)
+  topical_map_engine (= 3.0.0)!
   uglifier (>= 1.0.3)
-  universal_navigation (= 2.0.4)!
+  universal_navigation (= 2.0.5)!

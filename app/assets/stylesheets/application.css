@@ -9,6 +9,6 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require thl_integration/application
- *= require kmaps_engine/application
+ *= require topical_map_engine/application
  *= require universal_navigation/application
  */

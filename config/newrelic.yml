@@ -33,7 +33,7 @@ common: &default_settings
   # "All UI" then specify a semicolon-separated list of up to three
   # distinct names.  If you comment this out, it defaults to the 
   # capitalized RAILS_ENV (i.e., Production, Staging, etc)
-  app_name: Kmaps
+  app_name: Topical Map
 
   # When "true", the agent collects performance data about your 
   # application and reports this data to the New Relic service at
@@ -192,7 +192,7 @@ development:
   # 'enabled').
   # NOTE: for initial evaluation purposes, you may want to temporarily 
   # turn agent communication on in development mode.
-  app_name: Kmaps (Development)
+  app_name: Topical Map (Development)
   monitor_mode: false
 
   # Rails Only - when running in Developer Mode, the New Relic Agent will 
@@ -209,7 +209,7 @@ test:
   <<: *default_settings
   # It almost never makes sense to turn on the agent when running
   # unit, functional or integration tests or the like.
-  app_name: Kmaps (Test)
+  app_name: Topical Map (Test)
   monitor_mode: false
 
 # Turn on the agent in production for 24x7 monitoring.  New Relic
@@ -218,17 +218,17 @@ test:
 # incurring any user-visible performance degradation.
 production:
   <<: *default_settings
-  app_name: Kmaps (Local)
+  app_name: Topical Map (Local)
   monitor_mode: true
 
 quandu_production:
   <<: *default_settings
-  app_name: Kmaps (Quandu Production)
+  app_name: Topical Map (Quandu Production)
   monitor_mode: true
 
 quandu_staging:
   <<: *default_settings
-  app_name: Kmaps (Quandu Staging)
+  app_name: Topical Map (Quandu Staging)
   monitor_mode: true
 
 # Many applications have a staging environment which behaves
