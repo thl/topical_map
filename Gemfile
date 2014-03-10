@@ -36,7 +36,7 @@ gem 'authenticated_system',       '2.1.1', :git => 'git://github.com/thl/authent
 gem 'complex_scripts',            '2.0.7', :git => 'git://github.com/thl/complex_scripts.git',              :tag => 'v2.0.7' #:path => '../engines/complex_scripts'
 gem 'interface_utils',            '2.0.5', :git => 'git://github.com/thl/interface_utils.git',              :tag => 'v2.0.5' #:path => '../engines/interface_utils'
 gem 'topical_map_engine',         '3.0.3', :git => 'git://github.com/thl/topical_map_engine.git',           :tag => 'v3.0.3' #:path => '../engines/topical_map_engine'
-gem 'mediabase_integration',      '0.0.2', :git => 'git://github.com/shanti-uva/mediabase_integration.git', :tag => 'v0.0.2' #:path => '../engines/mediabase_integration'
+gem 'mediabase_integration',      '0.1.1', :git => 'git://github.com/shanti-uva/mediabase_integration.git', :tag => 'v0.1.1' #:path => '../../shanti/engines/mediabase_integration'
 gem 'mms_integration',            '2.0.5', :git => 'git://github.com/thl/mms_integration.git',              :tag => 'v2.0.5' #:path => '../engines/mms_integration'
 gem 'places_integration',         '2.0.5', :git => 'git://github.com/thl/places_integration.git',           :tag => 'v2.0.5' #:path => '../engines/places_integration'
 gem 'thl_integration',            '2.0.7', :git => 'git://github.com/thl/thl_integration.git',              :tag => 'v2.0.7' #:path => '../engines/thl_integration'

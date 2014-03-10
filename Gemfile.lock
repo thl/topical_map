@@ -20,10 +20,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/mediabase_integration.git
-  revision: 7efaeec4e6154e6fc45a8606cd81d74fd354e5a5
-  tag: v0.0.2
+  revision: 497428347493a094fbb629655ca0df0757ee5ac4
+  tag: v0.1.1
   specs:
-    mediabase_integration (0.0.2)
+    mediabase_integration (0.1.1)
       rails (~> 3.2.8)
 
 GIT
@@ -254,7 +254,7 @@ DEPENDENCIES
   jquery-rails
   json
   libv8 (= 3.3.10.2)
-  mediabase_integration (= 0.0.2)!
+  mediabase_integration (= 0.1.1)!
   memcache-client
   mms_integration (= 2.0.5)!
   mongrel
