@@ -53,10 +53,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/interface_utils.git
-  revision: 961ae0cae81f080110968a9478c212e94fec1ca8
-  tag: v2.0.5
+  revision: cafd94d5cbfd1be72f9574e95b5e515fe37860da
+  tag: v2.0.7.1
   specs:
-    interface_utils (2.0.5)
+    interface_utils (2.0.7.1)
       rails (~> 3.2.11)
 
 GIT
@@ -250,7 +250,7 @@ DEPENDENCIES
   dynamic_form
   globalize2 (= 0.2.0)!
   hpricot (>= 0.8.6)
-  interface_utils (= 2.0.5)!
+  interface_utils (= 2.0.7.1)!
   jquery-rails
   json
   libv8 (= 3.3.10.2)
